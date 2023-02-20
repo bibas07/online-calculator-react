@@ -1,0 +1,43 @@
+.container {
+  background: #cc9696;
+  width: 450px;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 20px;
+}
+.keypad {
+  display: inline-block;
+}
+
+.keypad > button {
+  height: 40px;
+  width: 55px;
+  background-color: aliceblue;
+  color: black;
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.keypad > button:hover {
+  background-color: #d9c8c8;
+  cursor: pointer;
+}
+.container > input {
+  height: 30px;
+  width: 80%;
+  border-radius: 10px;
+  border: 0px;
+  margin: 10px;
+  text-align: right;
+  padding: 10px;
+  font-weight: bold;
+}
+.highlight {
+  background: #dc5c5c !important;
+}
+.highlight:hover {
+  background: #d9c8c8 !important;
+}
